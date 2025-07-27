@@ -1,0 +1,103 @@
+body {
+  background-color: #c6e9ff;
+  align-items: center;
+  justify-content: center;
+}
+.sidebar {
+  width: 250px;
+  background-color: #0095ff;
+  min-height: 100vh;
+  color: white;
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  padding: 20px;
+}
+.sidebar .nav-link {
+  color: white;
+  padding: 12px 20px;
+  display: block;
+}
+.sidebar .nav-link:hover {
+  background-color: #007acc;
+}
+.main-content {
+  padding: 20px;
+}
+.welcome-section img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.welcome-section .text {
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.image-box img {
+  border-radius: 10px;
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.news-image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: 250px;
+}
+
+.news-box {
+  background-color: #00ccff;
+  color: black;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.jadwal-box {
+  background-color: #ffd9a0;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  max-width: 400px;
+}
+
+.guru-box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.guru-box img {
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.tatatertib-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 500px;         
+  margin: auto;             
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .navbar-mobile {
+    display: none;
+  }
+}
